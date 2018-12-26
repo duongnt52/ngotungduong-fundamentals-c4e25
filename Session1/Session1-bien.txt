@@ -1,0 +1,33 @@
+ n = 5
+n : variable ( có the thay doi duoc ) 
+5 : value
+
+
+        n     =      5
+
+     bien	    giá tri
+
+
+	n     =      6
+
+
+Datatypes
+str -> string
+int -> integer
+
+script mode : màn hình gõ code
+interactive mode : ktra 1 doan code
+
+		5 		-		7
+
+	Operand: Toán hang	Operator : Toán tu	Operand
+
+
+
+for i in range(400):
+    for j in range(4):
+        fd(100)
+        lt(90)
+
+    lt(7-90)# them left(90) phai bu them -90
+mainloop() #giu cua so lai

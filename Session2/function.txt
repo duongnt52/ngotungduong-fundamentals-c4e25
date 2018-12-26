@@ -1,0 +1,12 @@
+range : la 1 kieu du lieu, 1 khoang
+print(*range) : xem tat ca cua range
+range(5) : 5 la diem dung
+range(2,5) --> 2 ,3 ,4 #step =1
+range(2,8,3) --> 2, 5 #3 : step (buoc nhay)
+
+s = 0 
+for i in range(1, 5):
+    s += 1 
+print(s)  #Accumulate : tich luy
+
+elif ~ else if

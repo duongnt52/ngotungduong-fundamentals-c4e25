@@ -1,0 +1,36 @@
+1. * What is Boolean? 
+
+- A Boolean value is either true or false. In Python, the two Boolean values are True and False 
+
+  * Write down 3 different expression that results a Boolean type (i.e. 5 == 6)
+
+- 1 == 2 : False
+  9 != 3 : True
+  n = "Hello"
+  n + " techkids" = "Hello techkids" : True
+2. * What is a flow chart?
+
+- A flow chart is a graphical or symbolic representation of a process.
+3. * What is nested conditionals?
+
+- Nest conditional decribe a conditional be nested within another.
+
+   * Write a piece of code that uses nested conditionals
+
+from random import randint
+x = randint(0, 100)
+print(x)
+if x <= 40:
+
+    print("so be")
+else:
+
+    if x <= 60:
+
+       print("so vua")
+    else:
+
+       print("so lon")
+
+
+
