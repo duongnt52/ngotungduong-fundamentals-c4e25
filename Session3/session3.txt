@@ -1,0 +1,15 @@
+Human error -> input validation
+
+vong lap -  for : co dinh n lan lap
+         - while : co the thay doi lan lap
+         for ko dung thay cho while
+         while dung thay duoc cho for
+infinite loop : vong lap vo han 
+
+
+- unscalable(doi du lieu)
+- scalable : k phai dong tay doi du lieu
+LIST
++ Why
++ Initalite: khoi tao 
++ CRUD : Create, Read, Update, Delete
