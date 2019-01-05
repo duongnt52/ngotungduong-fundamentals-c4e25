@@ -1,0 +1,9 @@
+Dictionary
+
+"name" : "Quan
+  key  :  value
+  (str)   (any)
+
+- List of Dictionary
+- List inside Dictionary
+
