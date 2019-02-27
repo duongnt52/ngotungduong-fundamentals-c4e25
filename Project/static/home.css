@@ -1,0 +1,30 @@
+* {
+    font-size: 1.2rem;
+}
+html, body {
+    height: 100%;
+}
+#container {
+    display: flex;
+    flex-direction: row; /*chon truc chinh */
+    justify-content: space-evenly; /* tac dong vao truc chinh */
+    /* tac dong truc phu: align-item*/
+    align-items: center; /* can chieu doc*/
+    height: 100%;
+}
+#container div a{
+    text-align: center;
+    text-decoration: none;
+}
+html{
+    /* background-image: url('background.jpg'); */
+    background-size: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}

@@ -1,5 +1,5 @@
 import mlab
-from food import Food
+from models.food import Food
 
 mlab.connect()
 
@@ -34,7 +34,8 @@ f_objects = Food.objects() # Lazy loading # Same as list
 # f.delete()
 
 f = f_objects.with_id("5c4d7d930dd5311e8833223d") # 1
-if f != None:
-    f.delete()
-else:
-    print("Not found")
+# if f != None:
+#     f.delete()
+# else:
+#     print("Not found")
+

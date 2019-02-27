@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST">
+        <label for="">Title</label>
+        <input type="text" name="title" value="{{ food.title }}">
+        <label for="">Link</label>
+        <input type="text" name="link" value="{{ food.link }}">
+        <button>Save</button>
+    </form>
+    <br>
+    <br>
+    <h2>{{ food.title }}</h2>
+    <img src="{{ food.link }}" alt="{{ food.title }}">
+</body>
+</html>

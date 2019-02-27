@@ -1,0 +1,34 @@
+* {
+    font-size: 1.2rem;
+}
+html, body {
+    height: 100%;
+    font-family: 'Indie Flower', cursive;
+}
+#root {
+    display: flex;
+    flex-direction: row; /*chon truc chinh */
+    justify-content: center; /* tac dong vao truc chinh */
+    /* tac dong truc phu: align-item*/
+    align-items: center; /* can chieu doc*/
+    height: 100%;
+}
+.form_input{
+    margin-bottom: 16px;
+}
+.form_input > input{
+    border: solid 1px #6969b6
+}
+.form_lable{
+    display: inline-block; /* loai bo chiem cung dong */
+    width: 100px;
+}
+#btn_login{
+    float: right;
+    font-size: 1.1rem;
+    background-color: blue;
+    color: #ffffff;
+    padding: 4px 10px 4px 10px;
+    border-width: 0px;
+
+}
